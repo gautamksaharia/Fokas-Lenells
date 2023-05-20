@@ -1,2 +1,2 @@
 # Fokas-Lenells-
-Physics informed neural network (PINN) implementation to solve Fokas-Lenells equation
+Physics informed neural network (PINN) (PyTorch) implementation to solve Fokas-Lenells equation
