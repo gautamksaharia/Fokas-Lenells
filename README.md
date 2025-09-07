@@ -3,7 +3,7 @@ Code Repository of our paper "Data driven multi soliton solutions of the Fokas-L
 
 ---
 
--We propose a **conserved density aided neural network** to obtain data-driven multi-soliton solutions of the Fokas–Lenells equation (FLE).
+- We propose a **conserved density aided neural network** to obtain data-driven multi-soliton solutions of the Fokas–Lenells equation (FLE).
 
 - We incorporate the FLE equation together with its conserved densities into the loss function of a neural network. This leads to a modified Physics-Informed Neural Network (PINN) framework that better respects the underlying physics.
 
@@ -14,9 +14,9 @@ Code Repository of our paper "Data driven multi soliton solutions of the Fokas-L
 - We obtain data-driven **bright soliton**, **two-soliton interaction**, and **dark soliton** solutions of the FLE.
 
 Comparative experiments between standard PINN and the modified PINN:
-## Improved accuracy of soliton dynamics.
-## Lower relative error between predicted and exact solutions.
-## Using multiple conserved densities in the loss further enhances accuracy compared to using only one.
+### Improved accuracy of soliton dynamics.
+### Lower relative error between predicted and exact solutions.
+### Using multiple conserved densities in the loss further enhances accuracy compared to using only one.
 
 ---
 
