@@ -1,7 +1,26 @@
-# Fokas-Lenells-
+# Conserved Density Aided PINN for the Fokas–Lenells Equation
 Code Repository of our paper "Data driven multi soliton solutions of the Fokas-Lenells equation using conservation laws in PINN" (https://doi.org/10.1007/s12596-024-01831-z, https://doi.org/10.48550/arXiv.2306.03105)
-We apply Physics informed Neural Network (PINN) (PyTorch implementation)  to solve Fokas-Lenells equation
 
+
+We propose a conserved density aided neural network to obtain data-driven multi-soliton solutions of the Fokas–Lenells equation (FLE).
+
+we incorporate the FLE equation together with its conserved densities into the loss function of a neural network. This leads to a modified Physics-Informed Neural Network (PINN) framework that better respects the underlying physics.
+
+#Key Highlights
+
+We obtain data-driven bright soliton, two-soliton interaction, and dark soliton solutions of the FLE.
+
+Comparative experiments between standard PINN and the modified PINN show:
+
+Improved accuracy of soliton dynamics.
+
+Lower relative error between predicted and exact solutions.
+
+Using multiple conserved densities in the loss further enhances accuracy compared to using only one.
+
+#Significance
+
+The conserved-density-aided PINN framework improves the ability of neural networks to capture the correct dynamics of nonlinear wave equations. We expect this approach to be valuable not only in nonlinear optics but also in other branches of nonlinear physics
 
 
 #To Cite
